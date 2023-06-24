@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.4.0/axios.min.js" integrity="sha512-uMtXmF28A2Ab/JJO2t/vYhlaa/3ahUOgj1Zf27M5rOo8/+fcTUVH0/E0ll68njmjrLqOBjXM3V9NiPFL5ywWPQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+    <section>
+        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="#fff"
+            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+        <h1>Welcome to the bookstore, what are you looking for?</h1>
+        <p class="recs">Try to search the keyword of <strong>Javascript</strong> or whatever keyword you want!</p>
+        <div class="wrapper_input">
+            <input id="search" type="text" placeholder="Type the keyword here...">
+            <button type="submit" onclick="loadBooks()">Search</button>
+        </div>
+
+        <div id="books">
+            <!-- :-) -->
+            <!--     <div class="book-release">
+      <div class="inner_book-release">
+        <img id="img_url" src="#">
+        <div class="description">
+          <h1 id="title"></h1>
+          <p id="published"></p>
+          <p id="desc"></p>
+        </div>
+      </div>
+    </div> -->
+            <!-- :-^) -->
+
+        </div>
+    </section>
+<script src="/app.js"></script>
+</body>
+
+</html>
